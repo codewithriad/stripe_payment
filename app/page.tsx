@@ -12,7 +12,7 @@ if (process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY === undefined) {
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY);
 
 export default function Home() {
-  const amount = 49.5;
+  const amount = 49.5; //you can change this amount dynamically
   return (
     <main className="max-w-6xl mx-auto w-[30rem] p-4 text-white text-center border m-10 rounded-md bg-gradient-to-tr from-green-500 to-sky-600 ">
       <div className="m-4">
