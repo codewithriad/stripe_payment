@@ -11,7 +11,7 @@ export default function PaymentSuccess() {
     setIsVisible(false);
     route.push("/");
 
-    // No need to return anything here
+    // No need to return anything here. It will return home page after payment process has been completed.
   }
 
   if (!isVisible) return null;

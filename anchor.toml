@@ -1,0 +1,10 @@
+[lcl-host]
+realm-apid = 'localhost'
+
+[org]
+apid = 'codewithriad'
+
+[service]
+apid = 'stripe_payment'
+category = 'javascript'
+cert-style = 'acme'

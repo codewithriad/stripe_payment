@@ -83,7 +83,7 @@ const CheckoutPage = ({ amount }: { amount: number }) => {
       )}
 
       <button className="mt-4 px-16 py-4 w-full bg-blue-600 text-white font-bold rounded-md text-lg">
-        {!loading ? `Pay ${amount}` : "Processing..."}
+        {!loading ? `Pay $${amount}` : "Processing..."}
       </button>
     </form>
   );
